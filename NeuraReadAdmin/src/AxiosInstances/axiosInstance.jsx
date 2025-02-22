@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstances = axios.create({
-  baseURL: 'http://localhost:7171/api',
+  baseURL: 'https://neuraread-admin-panel.onrender.com/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
