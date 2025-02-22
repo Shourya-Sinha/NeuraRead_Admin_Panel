@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server/server.js",
     "start": "node server/server.js",
-    "build":"npm install && npm install --prefix NeuraReadAdmin && npm run build --prefix NeuraReadAdmin"
+    "build": "npm install --include=dev && npm install --prefix NeuraReadAdmin --include=dev && npm run build --prefix NeuraReadAdmin"
   },
   "author": "SHOURYA",
   "license": "ISC",
